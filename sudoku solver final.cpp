@@ -73,7 +73,7 @@ bool solver(int puzzle[9][9], int row, int col) {
             puzzle[row][col] = 0;  // If placing this number doesn't lead to a solution, backtrack
         }
     }
-    return false;  // Return false if no valid number can be placed
+    return false;  // Return false if no solution to the puzzle exists
 
 
 }
